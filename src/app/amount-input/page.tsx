@@ -1,15 +1,14 @@
+import Header from '@/component/common/Header';
+
 const AmountInput = () => {
   return (
     <>
-      <header>
-        <button>뒤로가기</button>
-        <h2>송금</h2>
-      </header>
+      <Header />
       <section>
         <h3>10,000원</h3>
         <p>1만원</p>
         <div>
-          <ul>
+          <ul className="flex flex-wrap [&>li]:w-[calc(100%/3)]">
             <li>
               <button>1</button>
             </li>

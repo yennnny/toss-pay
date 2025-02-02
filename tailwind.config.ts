@@ -19,6 +19,8 @@ export default {
       },
       blue: {
         100: '#E8F3FF',
+        200: '#E1EFFF',
+        800: '#1679FF',
       },
     },
   },

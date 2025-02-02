@@ -1,3 +1,5 @@
+import Header from '@/component/common/Header';
+
 const RecentList = () => {
   return (
     <div>
